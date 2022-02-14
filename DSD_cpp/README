@@ -1,0 +1,37 @@
+## Code modified based on the implementation of greedy++ (Flowless: Extracting Densest Subgraphs Without Flow
+Computations)
+
+------------------------------------------------------------------------------------------------------
+FILE INPUT FORMAT
+
+For algorithms for weighted graphs, the input graph file is required to be of the format:
+
+================
+n m
+u1 v1 w1
+u2 v2 w2
+.
+.
+.
+um vm wm
+================
+
+-----------------------------------------------------------------------------------------------------
+COMPILATION IN LINUX
+------------------------------------------------------------------------------------------------------
+
+simply run
+```
+sudo chmod +x compile.sh
+./compile.sh
+```
+
+-----------------------------------------------------------------------------------------------------
+RUNNING ON LINUX
+-----------------------------------------------------------------------------------------------------
+
+To run the code, the syntax goes as follows:
+
+```
+./ipnw no_of_iterations input_file output_file_prefix
+```
